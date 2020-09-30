@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+ 'django.contrib.admin',
     'users',
     'interface',
     'check',
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'questionaire',
     'chat.apps.ChatConfig',
+
     'rest_framework',
     'search',
     'widget_tweaks',
